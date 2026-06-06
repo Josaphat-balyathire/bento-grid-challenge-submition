@@ -210,16 +210,16 @@ h1 .gold {
     
  }
 
- @media (min-width: 600px) {
+ @media (min-width: 670px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 
  }
 
- @media (min-width: 960px) {
+ @media (min-width: 965px) {
     body {
         display: flex;
         align-items: center;
@@ -231,7 +231,7 @@ h1 .gold {
         font-size: 35px;
     }
     .grid-container {
-        max-width: 1400px;
+        max-width: 1100px;
         grid-template-columns: repeat(4, 1fr);
         /* align-items: center; */
         grid-template-areas: 
